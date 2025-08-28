@@ -182,7 +182,7 @@ async def deposit(update: Update, context: ContextTypes.DEFAULT_TYPE):
             },
             "confirmation": {
                 "type": "redirect",
-                "return_url": "https://your-bot-domain.render.com/telegram/yookassa-webhook/" # Замените на URL вашего бота
+                "return_url": "https://wager-telegram-bot.onrender.com/telegram/yookassa-webhook/" # Замените на URL вашего бота
             },
             "capture": True,
             "description": f"Депозит для пользователя {telegram_user.user.username}",

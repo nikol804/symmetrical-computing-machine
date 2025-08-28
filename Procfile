@@ -1,1 +1,1 @@
-web: gunicorn wager_bot_project.wsgi
+gunicorn wager_bot_project.wsgi
