@@ -8,7 +8,7 @@ from telegram import Update
 
 from .telegram_bot import setup_bot
 from .models import Transaction
-from django.db.models import sync_to_async
+from asgiref.sync import sync_to_async
 
 logger = logging.getLogger(__name__)
 
